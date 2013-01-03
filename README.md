@@ -5,9 +5,11 @@ Fill out music files ID3 tags based on file names, directory name or given infor
 
 This is nothing new and I'm sure there are lots of softwares like this, but I created it to help me organize my music collection quickly and I like it.
 
-## Usage
+## Installation and Usage
 
 It's a Ruby script, so you should have it installed to use it. Running any newer version of Ruby (1.8 or 1.9) should be fine.
+
+To set the tags I'm using a program called `id3v2`, you can get it [here](http://id3v2.sourceforge.net/) or install it using other methods. The script will not work without this installed.
 
 Run the script with no parameters to get an explanation of how to use it.
 
