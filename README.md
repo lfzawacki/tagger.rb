@@ -27,9 +27,9 @@ Take a real example from some files I had in my disk. The directory is called "(
 	08 Omnidimensional Creator(1).mp3
 	09 Color Your World(1).mp3
 	10 The Greys(1).mp3
-	11 Tall Latte.mp3
+	11 Tall Latte(1).mp3
 
-Let's say all these MP3s have no ID3 tags. How can you set them with this script? Assuming `tagger.rb` is somewhere in your path:
+Let's say all these MP3s have *no* ID3 tags. How can you set them with this script? Assuming `tagger.rb` is somewhere in your path:
 
     $ cd "(2006) Ziltoid The Omniscient"
     $ tagger.rb . -f "%T %t(1)" -d "(%y) %A"
